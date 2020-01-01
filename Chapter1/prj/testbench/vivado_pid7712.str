@@ -1,0 +1,307 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 7712
+License: Customer
+
+Current time: 	Fri Dec 27 21:36:38 CST 2019
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 30 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Xilinx_2018_1/Vivado/2018.1/tps/win64/jre
+Java executable location: 	D:/Xilinx_2018_1/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	ZhangCheng
+User home directory: C:/Users/czhan
+User working directory: F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/Xilinx_2018_1/Vivado
+HDI_APPROOT: D:/Xilinx_2018_1/Vivado/2018.1
+RDI_DATADIR: D:/Xilinx_2018_1/Vivado/2018.1/data
+RDI_BINDIR: D:/Xilinx_2018_1/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/czhan/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/czhan/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/czhan/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	D:/Xilinx_2018_1/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/vivado.log
+Vivado journal file location: 	F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/vivado.jou
+Engine tmp dir: 	F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/.Xil/Vivado-7712-ZC
+
+GUI allocated memory:	207 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 600 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 61 MB (+61737kb) [00:00:07]
+// [Engine Memory]: 514 MB (+387160kb) [00:00:07]
+// Opening Vivado Project: F:\FPGA\FPGA_Tutorial\Communication_IC_Design\Chapter1\prj\testbench\testbench.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.xpr 
+// [GUI Memory]: 72 MB (+7954kb) [00:00:08]
+// [Engine Memory]: 562 MB (+24160kb) [00:00:08]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 600 MB. GUI used memory: 37 MB. Current time: 12/27/19 9:36:40 PM CST
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx_2018_1/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 646 MB (+58509kb) [00:00:13]
+// Project name: testbench; location: F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench; part: xc7z020clg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 859.316 ; gain = 112.184 
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// [Engine Memory]: 680 MB (+1285kb) [00:00:57]
+// Elapsed time: 45 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, read_enable_signal (read_enable_signal.v)]", 1, false); // B (D, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 688 MB. GUI used memory: 44 MB. Current time: 12/27/19 9:37:31 PM CST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, read_enable_signal (read_enable_signal.v)]", 1, false, false, false, false, false, true); // B (D, ch) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 6); // B (D, ch)
+selectCodeEditor("read_enable_signal.v", 402, 150); // cd (w, ch)
+selectCodeEditor("read_enable_signal.v", 345, 218); // cd (w, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, read_enable_signal_tb (read_enable_signal_tb.v)]", 7, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, read_enable_signal_tb (read_enable_signal_tb.v)]", 7, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectButton(RDIResourceCommand.RDICommands_SETTINGS, "settings"); // B (f, ch)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// C (ch): Settings: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 708 MB. GUI used memory: 59 MB. Current time: 12/27/19 9:37:46 PM CST
+selectTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, Project]", 0, false); // M (C)
+// [Engine Memory]: 732 MB (+19194kb) [00:01:19]
+// [GUI Memory]: 83 MB (+8181kb) [00:01:24]
+// [GUI Memory]: 92 MB (+4550kb) [00:01:29]
+// Elapsed time: 16 seconds
+dismissDialog("Settings"); // C (ch)
+// [GUI Memory]: 98 MB (+1177kb) [00:02:48]
+// Elapsed time: 80 seconds
+selectCodeEditor("read_enable_signal_tb.v", 325, 204); // cd (w, ch)
+// [GUI Memory]: 105 MB (+3072kb) [00:02:59]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, read_enable_signal_tb (read_enable_signal_tb.v), u_read_enable_signal : read_enable_signal (read_enable_signal.v)]", 8, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, read_enable_signal_tb (read_enable_signal_tb.v), u_read_enable_signal : read_enable_signal (read_enable_signal.v)]", 8, false, false, false, false, false, true); // B (D, ch) - Double Click
+// [GUI Memory]: 115 MB (+4432kb) [00:02:59]
+// [GUI Memory]: 126 MB (+5438kb) [00:02:59]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Text]", 3); // B (D, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 755 MB. GUI used memory: 59 MB. Current time: 12/27/19 9:39:35 PM CST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Text]", 3, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Text, sin_data_fix.txt]", 4, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Text, sin_data_fix.txt]", 4, false, false, false, false, false, true); // B (D, ch) - Double Click
+// [Engine Memory]: 773 MB (+4507kb) [00:03:09]
+selectCodeEditor("sin_data_fix.txt", 448, 168); // cd (w, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, read_enable_signal_tb (read_enable_signal_tb.v)]", 8, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, read_enable_signal_tb (read_enable_signal_tb.v)]", 8, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectCodeEditor("read_enable_signal_tb.v", 853, 252); // cd (w, ch)
+selectCodeEditor("read_enable_signal_tb.v", 976, 251); // cd (w, ch)
+selectCodeEditor("read_enable_signal_tb.v", 1007, 252); // cd (w, ch)
+selectCodeEditor("read_enable_signal_tb.v", 926, 257); // cd (w, ch)
+typeControlKey((HResource) null, "read_enable_signal_tb.v", 'c'); // cd (w, ch)
+selectCodeEditor("read_enable_signal_tb.v", 924, 258); // cd (w, ch)
+typeControlKey((HResource) null, "read_enable_signal_tb.v", 'v'); // cd (w, ch)
+selectCodeEditor("read_enable_signal_tb.v", 11, 272); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("read_enable_signal_tb.v", 849, 272); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("read_enable_signal_tb.v", 461, 268); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'read_enable_signal_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (e)
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim' 
+selectCodeEditor("read_enable_signal_tb.v", 529, 212); // cd (w, ch)
+// Tcl Message: "xvlog --incr --relax -prj read_enable_signal_tb_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sources_1/new/read_enable_signal.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module read_enable_signal INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/read_enable_signal_tb.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module read_enable_signal_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim' 
+selectCodeEditor("read_enable_signal_tb.v", 426, 190); // cd (w, ch)
+selectCodeEditor("read_enable_signal_tb.v", 352, 217); // cd (w, ch)
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Built simulation snapshot read_enable_signal_tb_behav 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "read_enable_signal_tb_behav -key {Behavioral:sim_1:Functional:read_enable_signal_tb} -tclbatch {read_enable_signal_tb.tcl} -view {F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/read_enable_signal_tb_behav.wcfg} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.1 
+selectCodeEditor("read_enable_signal_tb.v", 279, 194); // cd (w, ch)
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 804 MB. GUI used memory: 81 MB. Current time: 12/27/19 9:40:12 PM CST
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// Tcl Message: open_wave_config F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/read_enable_signal_tb_behav.wcfg 
+// Tcl Message: source read_enable_signal_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'read_enable_signal_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 938.219 ; gain = 5.504 
+dismissDialog("Run Simulation"); // e (ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "read_enable_signal_tb_behav.wcfg", 3); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sin_data_fix.txt", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "read_enable_signal_tb.v", 1); // k (j, ch)
+// [Engine Memory]: 813 MB (+927kb) [00:03:53]
+// Elapsed time: 10 seconds
+selectCodeEditor("read_enable_signal_tb.v", 578, 256); // cd (w, ch)
+typeControlKey((HResource) null, "read_enable_signal_tb.v", 'c'); // cd (w, ch)
+selectCodeEditor("read_enable_signal_tb.v", 281, 276); // cd (w, ch)
+typeControlKey((HResource) null, "read_enable_signal_tb.v", 'v'); // cd (w, ch)
+selectCodeEditor("read_enable_signal_tb.v", 152, 275); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("read_enable_signal_tb.v", 419, 291); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'read_enable_signal_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj read_enable_signal_tb_vlog.prj" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sources_1/new/read_enable_signal.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module read_enable_signal INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/read_enable_signal_tb.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module read_enable_signal_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// 'a' command handler elapsed time: 6 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "read_enable_signal_tb.v", 1); // k (j, ch)
+selectCodeEditor("read_enable_signal_tb.v", 237, 272); // cd (w, ch)
+selectCodeEditor("read_enable_signal_tb.v", 239, 272); // cd (w, ch)
+selectCodeEditor("read_enable_signal_tb.v", 250, 270); // cd (w, ch)
+selectCodeEditor("read_enable_signal_tb.v", 238, 261); // cd (w, ch)
+selectCodeEditor("read_enable_signal_tb.v", 244, 266); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET

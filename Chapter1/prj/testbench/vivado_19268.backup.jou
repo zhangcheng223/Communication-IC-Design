@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri Dec 27 10:10:00 2019
+# Process ID: 19268
+# Current directory: F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1064 F:\FPGA\FPGA_Tutorial\Communication_IC_Design\Chapter1\prj\testbench\testbench.xpr
+# Log file: F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/vivado.log
+# Journal file: F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source read_enable_signal_tb.tcl
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/read_enable_signal_tb/u_read_enable_signal/clk}} {{/read_enable_signal_tb/u_read_enable_signal/enable}} {{/read_enable_signal_tb/u_read_enable_signal/signal_out}} {{/read_enable_signal_tb/u_read_enable_signal/signal_FILE}} {{/read_enable_signal_tb/u_read_enable_signal/signal_isNotFirstRise}} {{/read_enable_signal_tb/u_read_enable_signal/signal_isSimulationEnd}} {{/read_enable_signal_tb/u_read_enable_signal/signal_temp_i}} {{/read_enable_signal_tb/u_read_enable_signal/WIDTH}} {{/read_enable_signal_tb/u_read_enable_signal/FILENAME}} 
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+save_wave_config {F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/read_enable_signal_tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/read_enable_signal_tb_behav.wcfg
+set_property xsim.view F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/read_enable_signal_tb_behav.wcfg [get_filesets sim_1]
+relaunch_sim
+run all
+close_sim

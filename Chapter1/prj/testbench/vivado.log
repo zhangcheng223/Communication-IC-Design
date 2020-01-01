@@ -1,0 +1,854 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sat Dec 28 19:00:19 2019
+# Process ID: 1800
+# Current directory: F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2724 F:\FPGA\FPGA_Tutorial\Communication_IC_Design\Chapter1\prj\testbench\testbench.xpr
+# Log file: F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/vivado.log
+# Journal file: F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx_2018_1/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 868.047 ; gain = 124.094
+update_compile_order -fileset sources_1
+update_ip_catalog
+update_ip_catalog
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'bus_read_write_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj bus_read_write_test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus_read_write_test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx_2018_1/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 66a06b6e22914caf9e5bde628d13944e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot bus_read_write_test_behav xil_defaultlib.bus_read_write_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.bus_read_write_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot bus_read_write_test_behav
+
+****** Webtalk v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim/xsim.dir/bus_read_write_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim/xsim.dir/bus_read_write_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sat Dec 28 19:33:35 2019. For additional details about this file, please refer to the WebTalk help file at D:/Xilinx_2018_1/Vivado/2018.1/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 53.375 ; gain = 0.844
+INFO: [Common 17-206] Exiting Webtalk at Sat Dec 28 19:33:35 2019...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 1018.434 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '11' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "bus_read_write_test_behav -key {Behavioral:sim_1:Functional:bus_read_write_test} -tclbatch {bus_read_write_test.tcl} -view {F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/read_enable_signal_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+open_wave_config F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/read_enable_signal_tb_behav.wcfg
+WARNING: Simulation object /read_enable_signal_tb/rd_clk was not found in the design.
+WARNING: Simulation object /read_enable_signal_tb/wr_clk was not found in the design.
+WARNING: Simulation object /read_enable_signal_tb/rd_enable was not found in the design.
+WARNING: Simulation object /read_enable_signal_tb/wr_enable was not found in the design.
+WARNING: Simulation object /read_enable_signal_tb/rd_signal was not found in the design.
+WARNING: Simulation object /read_enable_signal_tb/WIDTH was not found in the design.
+WARNING: Simulation object /read_enable_signal_tb/FILENAME was not found in the design.
+WARNING: Simulation object /read_enable_signal_tb/RD_PERIOD was not found in the design.
+WARNING: Simulation object /read_enable_signal_tb/WR_PERIOD was not found in the design.
+WARNING: Simulation object /read_enable_signal_tb/u_read_enable_signal/clk was not found in the design.
+WARNING: Simulation object /read_enable_signal_tb/u_read_enable_signal/enable was not found in the design.
+WARNING: Simulation object /read_enable_signal_tb/u_read_enable_signal/signal_out was not found in the design.
+WARNING: Simulation object /read_enable_signal_tb/u_read_enable_signal/signal_FILE was not found in the design.
+WARNING: Simulation object /read_enable_signal_tb/u_read_enable_signal/signal_isNotFirstRise was not found in the design.
+WARNING: Simulation object /read_enable_signal_tb/u_read_enable_signal/signal_isSimulationEnd was not found in the design.
+WARNING: Simulation object /read_enable_signal_tb/u_read_enable_signal/signal_temp_i was not found in the design.
+WARNING: Simulation object /read_enable_signal_tb/u_read_enable_signal/WIDTH was not found in the design.
+WARNING: Simulation object /read_enable_signal_tb/u_read_enable_signal/FILENAME was not found in the design.
+source bus_read_write_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+1 CPU Write @ address: 55 Data: 0f
+1 Diriving CE, WR, WR data and ADDRESS on to bus
+=======================================================
+76 CPU Write @ address: aa Data: 0f
+76 Diriving CE, WR, WR data and ADDRESS on to bus
+=======================================================
+176 CPU Write @ address: bb Data: cc
+176 Diriving CE, WR, WR data and ADDRESS on to bus
+=======================================================
+276 CPU Read @ address: 55
+276 Diriving CE, RD, and ADDRESS on to bus
+375 CPU Read data  : 0f
+=======================================================
+376 CPU Read @ address: aa
+376 Diriving CE, RD, and ADDRESS on to bus
+475 CPU Read data  : 0f
+=======================================================
+476 CPU Read @ address: bb
+476 Diriving CE, RD, and ADDRESS on to bus
+575 CPU Read data  : cc
+=======================================================
+$finish called at time : 625 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 71
+Memory in use : 6148 KB (peak memory: 6148 KB)     CPU usage : 31 ms
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'bus_read_write_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:17 . Memory (MB): peak = 1035.035 ; gain = 16.602
+relaunch_sim
+suspend_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1036.672 ; gain = 0.000
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'bus_read_write_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj bus_read_write_test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus_read_write_test
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx_2018_1/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 66a06b6e22914caf9e5bde628d13944e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot bus_read_write_test_behav xil_defaultlib.bus_read_write_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.bus_read_write_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot bus_read_write_test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+1 CPU Write @ address: 55 Data: 0f
+1 Diriving CE, WR, WR data and ADDRESS on to bus
+=======================================================
+151 CPU Write @ address: aa Data: 0f
+151 Diriving CE, WR, WR data and ADDRESS on to bus
+=======================================================
+351 CPU Write @ address: bb Data: cc
+351 Diriving CE, WR, WR data and ADDRESS on to bus
+=======================================================
+551 CPU Read @ address: 55
+551 Diriving CE, RD, and ADDRESS on to bus
+750 CPU Read data  : 0f
+=======================================================
+751 CPU Read @ address: aa
+751 Diriving CE, RD, and ADDRESS on to bus
+950 CPU Read data  : 0f
+=======================================================
+951 CPU Read @ address: bb
+951 Diriving CE, RD, and ADDRESS on to bus
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 1036.672 ; gain = 0.000
+run all
+1150 CPU Read data  : cc
+=======================================================
+$finish called at time : 1250 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 71
+Memory in use : 5716 KB (peak memory: 5716 KB)     CPU usage : 31 ms
+add_wave {{/bus_read_write_test/clk}} {{/bus_read_write_test/rd}} {{/bus_read_write_test/wr}} {{/bus_read_write_test/ce}} {{/bus_read_write_test/addr}} {{/bus_read_write_test/data_wr}} {{/bus_read_write_test/data_rd}} {{/bus_read_write_test/read_data}} {{/bus_read_write_test/mem}} {{/bus_read_write_test/PERIOD}} 
+save_wave_config {F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/bus_read_write_test_behav.wcfg}
+add_files -fileset sim_1 -norecurse F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/bus_read_write_test_behav.wcfg
+set_property xsim.view {F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/read_enable_signal_tb_behav.wcfg F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/bus_read_write_test_behav.wcfg} [get_filesets sim_1]
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'bus_read_write_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj bus_read_write_test_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx_2018_1/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 66a06b6e22914caf9e5bde628d13944e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot bus_read_write_test_behav xil_defaultlib.bus_read_write_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+1 CPU Write @ address: 55 Data: 0f
+1 Diriving CE, WR, WR data and ADDRESS on to bus
+=======================================================
+151 CPU Write @ address: aa Data: 0f
+151 Diriving CE, WR, WR data and ADDRESS on to bus
+=======================================================
+351 CPU Write @ address: bb Data: cc
+351 Diriving CE, WR, WR data and ADDRESS on to bus
+=======================================================
+551 CPU Read @ address: 55
+551 Diriving CE, RD, and ADDRESS on to bus
+750 CPU Read data  : 0f
+=======================================================
+751 CPU Read @ address: aa
+751 Diriving CE, RD, and ADDRESS on to bus
+950 CPU Read data  : 0f
+=======================================================
+951 CPU Read @ address: bb
+951 Diriving CE, RD, and ADDRESS on to bus
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1044.852 ; gain = 0.000
+run all
+1150 CPU Read data  : cc
+=======================================================
+$finish called at time : 1250 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 71
+Memory in use : 5760 KB (peak memory: 5760 KB)     CPU usage : 15 ms
+add_bp {F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v} 49
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'bus_read_write_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj bus_read_write_test_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx_2018_1/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 66a06b6e22914caf9e5bde628d13944e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot bus_read_write_test_behav xil_defaultlib.bus_read_write_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+Stopped at time : 0 fs : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 49
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1045.320 ; gain = 0.000
+step
+Stopped at time : 0 fs : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 50
+step
+Stopped at time : 0 fs : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 51
+step
+Stopped at time : 0 fs : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 52
+step
+Stopped at time : 0 fs : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 53
+step
+Stopped at time : 0 fs : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 54
+step
+Stopped at time : 0 fs : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 61
+step
+Stopped at time : 0 fs : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim/glbl.v" Line 57
+step
+Stopped at time : 0 fs : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim/glbl.v" Line 58
+step
+Stopped at time : 0 fs : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim/glbl.v" Line 59
+step
+Stopped at time : 0 fs : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim/glbl.v" Line 65
+step
+Stopped at time : 0 fs : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim/glbl.v" Line 66
+step
+Stopped at time : 0 fs : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim/glbl.v" Line 52
+step
+Stopped at time : 0 fs : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim/glbl.v" Line 54
+step
+Stopped at time : 0 fs : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim/glbl.v" Line 53
+step
+Stopped at time : 0 fs : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 138
+step
+Stopped at time : 0 fs : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 136
+step
+Stopped at time : 0 fs : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim/glbl.v" Line 67
+step
+Stopped at time : 0 fs : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim/glbl.v" Line 53
+step
+Stopped at time : 1 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 61
+step
+Stopped at time : 1 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 83
+step
+1 CPU Write @ address: 55 Data: 0f
+Stopped at time : 1 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 84
+step
+1 Diriving CE, WR, WR data and ADDRESS on to bus
+Stopped at time : 1 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 87
+step
+Stopped at time : 50 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 50 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 50 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 50 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 88
+step
+Stopped at time : 50 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 89
+step
+Stopped at time : 50 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 90
+step
+Stopped at time : 50 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 91
+step
+Stopped at time : 50 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 94
+step
+Stopped at time : 50 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 138
+step
+Stopped at time : 50 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 140
+step
+Stopped at time : 50 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 141
+step
+Stopped at time : 50 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 142
+step
+Stopped at time : 50 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 136
+step
+Stopped at time : 100 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim/glbl.v" Line 60
+step
+Stopped at time : 100 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim/glbl.v" Line 61
+step
+Stopped at time : 100 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 100 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 100 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 100 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim/glbl.v" Line 52
+step
+Stopped at time : 100 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim/glbl.v" Line 54
+step
+Stopped at time : 150 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 150 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 150 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 150 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 95
+step
+Stopped at time : 150 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 96
+step
+Stopped at time : 150 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 97
+step
+Stopped at time : 150 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 98
+step
+Stopped at time : 150 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 100
+step
+=======================================================
+Stopped at time : 150 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 62
+step
+Stopped at time : 150 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 138
+step
+Stopped at time : 150 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 136
+step
+Stopped at time : 151 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 62
+step
+Stopped at time : 151 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 83
+step
+151 CPU Write @ address: aa Data: 0f
+Stopped at time : 151 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 84
+step
+151 Diriving CE, WR, WR data and ADDRESS on to bus
+Stopped at time : 151 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 87
+step
+Stopped at time : 200 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 200 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 200 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 250 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 250 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 250 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 250 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 88
+step
+Stopped at time : 250 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 89
+step
+Stopped at time : 250 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 90
+step
+Stopped at time : 250 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 91
+step
+Stopped at time : 250 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 94
+step
+Stopped at time : 250 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 138
+step
+Stopped at time : 250 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 140
+step
+Stopped at time : 250 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 141
+step
+Stopped at time : 250 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 142
+step
+Stopped at time : 250 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 136
+step
+Stopped at time : 300 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 300 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 300 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 350 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 350 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 350 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 350 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 95
+step
+Stopped at time : 350 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 96
+step
+Stopped at time : 350 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 97
+step
+Stopped at time : 350 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 98
+step
+Stopped at time : 350 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 100
+step
+=======================================================
+Stopped at time : 350 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 63
+step
+Stopped at time : 350 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 138
+step
+Stopped at time : 350 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 136
+step
+Stopped at time : 351 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 63
+step
+Stopped at time : 351 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 83
+step
+351 CPU Write @ address: bb Data: cc
+Stopped at time : 351 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 84
+step
+351 Diriving CE, WR, WR data and ADDRESS on to bus
+Stopped at time : 351 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 87
+step
+Stopped at time : 400 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 400 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 400 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 450 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 450 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 450 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 450 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 88
+step
+Stopped at time : 450 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 89
+step
+Stopped at time : 450 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 90
+step
+Stopped at time : 450 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 91
+step
+Stopped at time : 450 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 94
+step
+Stopped at time : 450 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 138
+step
+Stopped at time : 450 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 140
+step
+Stopped at time : 450 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 141
+step
+Stopped at time : 450 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 142
+step
+Stopped at time : 450 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 136
+step
+Stopped at time : 500 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 500 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 500 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 550 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 550 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 550 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 550 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 95
+step
+Stopped at time : 550 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 96
+step
+Stopped at time : 550 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 97
+step
+Stopped at time : 550 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 98
+step
+Stopped at time : 550 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 100
+step
+=======================================================
+Stopped at time : 550 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 66
+step
+Stopped at time : 550 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 138
+step
+Stopped at time : 550 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 136
+step
+Stopped at time : 551 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 66
+step
+Stopped at time : 551 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 111
+step
+551 CPU Read @ address: 55
+Stopped at time : 551 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 112
+step
+551 Diriving CE, RD, and ADDRESS on to bus
+Stopped at time : 551 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 115
+step
+Stopped at time : 600 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 600 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 600 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 650 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 650 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 650 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 650 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 116
+step
+Stopped at time : 650 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 117
+step
+Stopped at time : 650 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 118
+step
+Stopped at time : 650 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 121
+step
+Stopped at time : 650 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 138
+step
+Stopped at time : 650 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 140
+step
+Stopped at time : 650 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 142
+step
+Stopped at time : 650 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 143
+step
+Stopped at time : 650 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 136
+step
+Stopped at time : 700 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 700 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 700 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 700 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 122
+step
+Stopped at time : 700 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 124
+step
+Stopped at time : 750 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 750 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 750 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 750 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 125
+step
+Stopped at time : 750 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 126
+step
+Stopped at time : 750 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 127
+step
+Stopped at time : 750 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 129
+step
+750 CPU Read data  : 0f
+Stopped at time : 750 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 130
+step
+=======================================================
+Stopped at time : 750 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 67
+step
+Stopped at time : 750 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 138
+step
+Stopped at time : 750 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 136
+step
+Stopped at time : 751 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 67
+step
+Stopped at time : 751 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 111
+step
+751 CPU Read @ address: aa
+Stopped at time : 751 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 112
+step
+751 Diriving CE, RD, and ADDRESS on to bus
+Stopped at time : 751 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 115
+step
+Stopped at time : 800 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 800 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 800 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 850 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 850 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 850 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 850 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 116
+step
+Stopped at time : 850 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 117
+step
+Stopped at time : 850 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 118
+step
+Stopped at time : 850 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 121
+step
+Stopped at time : 850 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 138
+step
+Stopped at time : 850 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 140
+step
+Stopped at time : 850 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 142
+step
+Stopped at time : 850 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 143
+step
+Stopped at time : 850 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 136
+step
+Stopped at time : 900 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 900 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 900 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 900 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 122
+add_bp {F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v} 67
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'bus_read_write_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj bus_read_write_test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus_read_write_test
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx_2018_1/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 66a06b6e22914caf9e5bde628d13944e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot bus_read_write_test_behav xil_defaultlib.bus_read_write_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.bus_read_write_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot bus_read_write_test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+Stopped at time : 0 fs : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 49
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1064.570 ; gain = 0.000
+remove_bps -file {F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v} -line 49
+run all
+1 CPU Write @ address: 55 Data: f0
+1 Diriving CE, WR, WR data and ADDRESS on to bus
+=======================================================
+151 CPU Write @ address: aa Data: 0f
+151 Diriving CE, WR, WR data and ADDRESS on to bus
+=======================================================
+351 CPU Write @ address: bb Data: cc
+351 Diriving CE, WR, WR data and ADDRESS on to bus
+=======================================================
+551 CPU Read @ address: 55
+551 Diriving CE, RD, and ADDRESS on to bus
+750 CPU Read data  : f0
+=======================================================
+Stopped at time : 750 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 67
+step
+Stopped at time : 750 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 138
+step
+Stopped at time : 750 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 136
+step
+Stopped at time : 751 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 67
+step
+Stopped at time : 751 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 111
+step
+751 CPU Read @ address: aa
+Stopped at time : 751 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 112
+step
+751 Diriving CE, RD, and ADDRESS on to bus
+Stopped at time : 751 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 115
+step
+Stopped at time : 800 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 800 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 800 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 850 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 850 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 850 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 850 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 116
+step
+Stopped at time : 850 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 117
+step
+Stopped at time : 850 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 118
+step
+Stopped at time : 850 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 121
+step
+Stopped at time : 850 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 138
+step
+Stopped at time : 850 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 140
+step
+Stopped at time : 850 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 142
+step
+Stopped at time : 850 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 143
+step
+Stopped at time : 850 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 136
+step
+Stopped at time : 900 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 900 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 900 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 900 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 122
+step
+Stopped at time : 900 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 124
+step
+Stopped at time : 950 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 950 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 950 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 950 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 125
+step
+Stopped at time : 950 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 126
+step
+Stopped at time : 950 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 127
+step
+Stopped at time : 950 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 129
+step
+950 CPU Read data  : 0f
+Stopped at time : 950 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 130
+step
+=======================================================
+Stopped at time : 950 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 68
+step
+Stopped at time : 950 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 138
+step
+Stopped at time : 950 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 136
+step
+Stopped at time : 951 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 68
+step
+Stopped at time : 951 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 111
+step
+951 CPU Read @ address: bb
+Stopped at time : 951 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 112
+step
+951 Diriving CE, RD, and ADDRESS on to bus
+Stopped at time : 951 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 115
+step
+Stopped at time : 1 us : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 1 us : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 1 us : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 1050 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 1050 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 1050 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 1050 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 116
+step
+Stopped at time : 1050 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 117
+step
+Stopped at time : 1050 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 118
+step
+Stopped at time : 1050 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 121
+step
+Stopped at time : 1050 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 138
+step
+Stopped at time : 1050 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 140
+step
+Stopped at time : 1050 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 142
+step
+Stopped at time : 1050 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 143
+step
+Stopped at time : 1050 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 136
+step
+Stopped at time : 1100 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 1100 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 1100 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 1100 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 122
+step
+Stopped at time : 1100 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 124
+step
+Stopped at time : 1150 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 1150 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 1150 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 1150 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 125
+step
+Stopped at time : 1150 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 126
+step
+Stopped at time : 1150 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 127
+step
+Stopped at time : 1150 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 129
+step
+1150 CPU Read data  : cc
+Stopped at time : 1150 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 130
+step
+=======================================================
+Stopped at time : 1150 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 70
+step
+Stopped at time : 1150 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 70
+step
+Stopped at time : 1150 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 138
+step
+Stopped at time : 1150 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 136
+step
+Stopped at time : 1200 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 1200 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 1200 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 1250 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 1250 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 1250 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 43
+step
+Stopped at time : 1250 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 71
+step
+$finish called at time : 1250 ns : File "F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v" Line 71
+Memory in use : 5768 KB (peak memory: 5768 KB)     CPU usage : 437 ms
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 28 20:06:37 2019...

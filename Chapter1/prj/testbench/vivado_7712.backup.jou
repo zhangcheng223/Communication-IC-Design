@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri Dec 27 21:36:18 2019
+# Process ID: 7712
+# Current directory: F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11772 F:\FPGA\FPGA_Tutorial\Communication_IC_Design\Chapter1\prj\testbench\testbench.xpr
+# Log file: F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/vivado.log
+# Journal file: F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/read_enable_signal_tb_behav.wcfg
+source read_enable_signal_tb.tcl
+relaunch_sim
+relaunch_sim

@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sat Dec 28 19:33:30 2019
+# Process ID: 5580
+# Current directory: F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim/xsim.dir/bus_read_write_test_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim/xsim.dir/bus_read_write_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim/xsim.dir/bus_read_write_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sat Dec 28 19:33:35 2019. For additional details about this file, please refer to the WebTalk help file at D:/Xilinx_2018_1/Vivado/2018.1/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 53.375 ; gain = 0.844
+INFO: [Common 17-206] Exiting Webtalk at Sat Dec 28 19:33:35 2019...

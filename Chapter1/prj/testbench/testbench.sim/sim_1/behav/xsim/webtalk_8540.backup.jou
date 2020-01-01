@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sat Dec 28 15:45:59 2019
+# Process ID: 8540
+# Current directory: F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim/xsim.dir/read_enable_signal_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim/xsim.dir/read_enable_signal_tb_behav/webtalk/xsim_webtalk.tcl -notrace

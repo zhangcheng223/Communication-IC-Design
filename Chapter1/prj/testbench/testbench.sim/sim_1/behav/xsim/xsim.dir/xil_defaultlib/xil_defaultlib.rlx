@@ -1,0 +1,12 @@
+0.6
+2018.1
+Apr  4 2018
+19:30:32
+F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.sim/sim_1/behav/xsim/glbl.v,1522801934,verilog,,,,glbl,,,,,,,,
+F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/bus_read_write_test.v,1577533423,verilog,,,,bus_read_write_test,,,,,,,,
+F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/count_tb.v,1577352871,verilog,,,,count_tb,,,,,,,,
+F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/fork_join_test.v,1577521091,verilog,,,,fork_join_test,,,,,,,,
+F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/read_enable_signal_tb.v,1577519153,verilog,,,,read_enable_signal_tb,,,,,,,,
+F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sources_1/new/count.v,1577355471,verilog,,F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/count_tb.v,,count,,,,,,,,
+F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sources_1/new/read_enable_signal.v,1577457151,verilog,,F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sources_1/new/write_enable_signal.v,,read_enable_signal,,,,,,,,
+F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sources_1/new/write_enable_signal.v,1577520056,verilog,,F:/FPGA/FPGA_Tutorial/Communication_IC_Design/Chapter1/prj/testbench/testbench.srcs/sim_1/new/read_enable_signal_tb.v,,write_enable_signal,,,,,,,,

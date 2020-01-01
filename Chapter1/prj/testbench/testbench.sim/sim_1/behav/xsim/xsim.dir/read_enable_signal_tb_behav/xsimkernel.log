@@ -1,0 +1,7 @@
+Running: xsim.dir/read_enable_signal_tb_behav/xsimk.exe -simmode gui -wdb read_enable_signal_tb_behav.wdb -simrunnum 0 -socket 9440
+Design successfully loaded
+Design Loading Memory Usage: 5076 KB (Peak: 5076 KB)
+Design Loading CPU Usage: 62 ms
+Simulation completed
+Simulation Memory Usage: 13864 KB (Peak: 13864 KB)
+Simulation CPU Usage: 577 ms

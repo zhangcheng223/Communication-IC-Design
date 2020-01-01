@@ -1,0 +1,7 @@
+Running: xsim.dir/fork_join_test_behav/xsimk.exe -simmode gui -wdb fork_join_test_behav.wdb -simrunnum 0 -socket 9637
+Design successfully loaded
+Design Loading Memory Usage: 5064 KB (Peak: 5064 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 5592 KB (Peak: 5592 KB)
+Simulation CPU Usage: 296 ms
